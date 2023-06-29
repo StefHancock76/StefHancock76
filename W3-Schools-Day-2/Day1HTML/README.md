@@ -1,1 +1,0 @@
-# W3-Schools-Day-1

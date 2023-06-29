@@ -1,0 +1,32 @@
+#head1 { /* The h3 is a selector */
+    color: cadetblue; /* This is a declaration, the color is the CSS property and the property value is the color red. */
+    text-align: center;
+    font-size: 50px;
+}
+#para2 {
+    color: blue;
+    text-align: left;
+    font-size: medium;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#list1 {color: blueviolet;
+    text-align: justify;
+    font-size: small;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: italic;}
+form {color: chocolate;
+        font-size: large;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-weight: 100;
+        font-style: normal;}
+li {display: inline;
+    padding: 15px;
+}
+
+img {
+        border-radius: 10px;
+    }
+#head2 {color: aqua;
+        font-size: 50px;
+        font-family: Arial, Helvetica, sans-serif;
+        }
