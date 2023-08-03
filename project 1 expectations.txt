@@ -1,0 +1,37 @@
+Module 2 (HTML / CSS / JS) - JavaScript Application
+
+Duration: 1 week
+
+Members: Individual
+
+Aim: Learners are to apply the concepts learned from Modules 1 and 2 to create a dynamic web application.
+
+Specifications:
+
+Create a simple JavaScript application using HTML / CSS / JavaScript:
+
+Alarm clock
+
+Reminder
+
+To-do List..
+
+Calculator
+
+Game
+
+Etc.
+
+The web application should be responsive for desktop, tablet, and mobile
+
+Project should be hosted publicly (W3Spaces / Github Pages)
+
+Submission:
+
+Github repository for the project
+
+URL for the hosted project
+
+
+
+I am going to do an grocery/shopping list
