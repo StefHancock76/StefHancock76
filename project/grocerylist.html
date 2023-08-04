@@ -1,39 +1,32 @@
-
 <!DOCTYPE html>
 <html>
- <header>
-    Simple grocery list
-  </header>
- 
-  <body>
-    <form>
-      <label for="item-input">Item</label>
-      <input type="text" id="itemInput">
-      <label for="quantityInput">Quantity</label>
-      <input type="number" id="quantityInput">
-      <button type="submit" id="submitBtn">Add</button>
-    </form>
- 
-    <div id="lists">
-      <p class="listLabel">Still need to grab <span class="quantity" id="shoppingNum"></span></p>
-      <ul id="shopping-list">
-      </ul>
-      <p class="listLabel">In cart <span class="quantity" id="boughtNum"></span></p>
-      <ul id="boughtList">
-      </ul>
-    </div>
- 
-  
-  <div class="push"></div>
-</div>
 
-<script scr="grocerylist.css"></script>
-<script scr="grocerylist.js"></script>
-<!-- jQuery 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-alpha1/jquery.min.js"></script>
--- Lodash JS --
-<script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/3.10.1/lodash.min.js"></script>
--- Backbone JS --
-<script src="https://cdnjs.cloudflare.com/ajax/libs/backbone.js/1.2.3/backbone.min.js"></script>-->
+<head>
+    <title>Grocery List</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <form>
+        <label for="item-input">Item</label>
+        <input type="text" id="item-input">
+        <label for="quantity-input">Quantity</label>
+        <input type="number" id="quantity-input">
+        <button type="submit" id="submit-btn">Add</button>
+    </form>
+
+    <div id="lists">
+        <p class="list__label">Still need to grab <span class="quantity" id="shopping-num"></span></p>
+        <ul id="shopping-list"></ul>
+        <p class="list__label">In cart <span class="quantity" id="bought-num"></span></p>
+        <ul id="bought-list"></ul>
+    </div>
+    <div class="push"></div>
+    </div>
+    <script src="grocerylist.js"></script>
 </body>
+
+
+
+
 </html>
