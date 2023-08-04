@@ -1,0 +1,50 @@
+/*Stylesheet for Grocery List*/
+header,
+footer {
+    color: wheat;
+    background-color: darkcyan;
+    width: 100%;
+    text-align: center;
+    padding: 0.5em;
+    position: relative;
+}
+
+form {
+    width: inherit;
+}
+
+label {
+    display: block;
+    line-height: 1.5em;
+
+}
+
+.item-input {
+    color: #004A55;
+}
+
+input {
+    width: inherit;
+    padding: 1em;
+}
+
+
+button {
+    color: white;
+    background-color: #f18973;
+}
+
+button {
+    border: 0;
+    padding: 1em;
+    width: inherit;
+    margin: 0.75em 0;
+}
+
+
+.list__label {
+    border-bottom: 3px solid #f18973;
+    font-size: 12pt;
+    color: #004A55;
+    padding: 0;
+}

@@ -1,32 +1,40 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Grocery List</title>
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="grocerylist.css">
 </head>
 
 <body>
+    <header><h1>Grocery List</h1></header>
+    
+    <main>
     <form>
-        <label for="item-input">Item</label>
-        <input type="text" id="item-input">
-        <label for="quantity-input">Quantity</label>
-        <input type="number" id="quantity-input">
+        <label class="item-input" for="item-input">Item</label>
+        <input type="text" id="item-input" placeholder="Enter Item">
+        <label class="item-input for="quantity-input">Quantity</label>
+        <input type="number" id="quantity-input"  placeholder="Enter Quantity">
+        <br>
         <button type="submit" id="submit-btn">Add</button>
     </form>
 
     <div id="lists">
         <p class="list__label">Still need to grab <span class="quantity" id="shopping-num"></span></p>
-        <ul id="shopping-list"></ul>
+        <li id="shopping-list"></li>
         <p class="list__label">In cart <span class="quantity" id="bought-num"></span></p>
-        <ul id="bought-list"></ul>
+        <li id="bought-list"></li>
     </div>
+    <button type="reset" id="reset-btn">Clear</button>
     <div class="push"></div>
     </div>
-    <script src="grocerylist.js"></script>
+</main>
+
+<footer>
+    <p>Contact me @StefHancock</p>
+   </footer>
 </body>
-
-
-
-
+<script src="grocerylist.js"></script>
 </html>
