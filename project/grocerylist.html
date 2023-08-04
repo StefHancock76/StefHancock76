@@ -1,0 +1,39 @@
+
+<!DOCTYPE html>
+<html>
+ <header>
+    Simple grocery list
+  </header>
+ 
+  <body>
+    <form>
+      <label for="item-input">Item</label>
+      <input type="text" id="itemInput">
+      <label for="quantityInput">Quantity</label>
+      <input type="number" id="quantityInput">
+      <button type="submit" id="submitBtn">Add</button>
+    </form>
+ 
+    <div id="lists">
+      <p class="listLabel">Still need to grab <span class="quantity" id="shoppingNum"></span></p>
+      <ul id="shopping-list">
+      </ul>
+      <p class="listLabel">In cart <span class="quantity" id="boughtNum"></span></p>
+      <ul id="boughtList">
+      </ul>
+    </div>
+ 
+  
+  <div class="push"></div>
+</div>
+
+<script scr="grocerylist.css"></script>
+<script scr="grocerylist.js"></script>
+<!-- jQuery 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-alpha1/jquery.min.js"></script>
+-- Lodash JS --
+<script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/3.10.1/lodash.min.js"></script>
+-- Backbone JS --
+<script src="https://cdnjs.cloudflare.com/ajax/libs/backbone.js/1.2.3/backbone.min.js"></script>-->
+</body>
+</html>
