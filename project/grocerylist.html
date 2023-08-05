@@ -10,16 +10,24 @@
 
 <body>
     <header>
-        <h1>Grocery List</h1>
+        <h1 id="list_name">Grocery List</h1>
     </header>
     <input type="text" id="grocery_list_input" placeholder="Enter Item" />
     <input type="number" id="quantity_input" placeholder="Enter Quantity">
     <button type="submit" id="add_to_list">Add to list</button>
-    <ul id="grocery_list">
+    <!--<ul id="grocery_list">
         <li>Pumpkin</li>
-    </ul>
+    </ul>-->
 
-    <button id="edit_list_name">Clear</button>
+    <table id="grocery_list">
+        <tr id="list_item">
+            <th>Pumpkin</th>
+            <th>1</th>
+        </tr>
+    </table>
+
+
+    <button type="reset" id="edit_list_name">Clear</button>
 
 
     <footer>

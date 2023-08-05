@@ -17,9 +17,7 @@ label {
     display: flexbox;
 }
 
-/*.item-input {
-    color: #004A55;
-}*/
+
 
 input {
     width: inherit;
@@ -46,3 +44,10 @@ button {
     color: #004A55;
     padding: 0;
 }
+
+/*#list_item {
+
+    font-size: 12pt;
+    color: #004A55;
+    padding: 0;
+}*/
