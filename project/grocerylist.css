@@ -14,14 +14,12 @@ form {
 }
 
 label {
-    display: block;
-    line-height: 1.5em;
-
+    display: flexbox;
 }
 
-.item-input {
+/*.item-input {
     color: #004A55;
-}
+}*/
 
 input {
     width: inherit;
@@ -42,8 +40,8 @@ button {
 }
 
 
-.list__label {
-    border-bottom: 3px solid #f18973;
+#grocery_list {
+
     font-size: 12pt;
     color: #004A55;
     padding: 0;

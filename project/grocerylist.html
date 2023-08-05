@@ -9,32 +9,23 @@
 </head>
 
 <body>
-    <header><h1>Grocery List</h1></header>
-    
-    <main>
-    <form>
-        <label class="item-input" for="item-input">Item</label>
-        <input type="text" id="item-input" placeholder="Enter Item">
-        <label class="item-input for="quantity-input">Quantity</label>
-        <input type="number" id="quantity-input"  placeholder="Enter Quantity">
-        <br>
-        <button type="submit" id="submit-btn">Add</button>
-    </form>
+    <header>
+        <h1>Grocery List</h1>
+    </header>
+    <input type="text" id="grocery_list_input" placeholder="Enter Item" />
+    <input type="number" id="quantity_input" placeholder="Enter Quantity">
+    <button type="submit" id="add_to_list">Add to list</button>
+    <ul id="grocery_list">
+        <li>Pumpkin</li>
+    </ul>
 
-    <div id="lists">
-        <p class="list__label">Still need to grab <span class="quantity" id="shopping-num"></span></p>
-        <li id="shopping-list"></li>
-        <p class="list__label">In cart <span class="quantity" id="bought-num"></span></p>
-        <li id="bought-list"></li>
-    </div>
-    <button type="reset" id="reset-btn">Clear</button>
-    <div class="push"></div>
-    </div>
-</main>
+    <button id="edit_list_name">Clear</button>
 
-<footer>
-    <p>Contact me @StefHancock</p>
-   </footer>
+
+    <footer>
+        <p>Contact me @StefHancock</p>
+    </footer>
 </body>
 <script src="grocerylist.js"></script>
+
 </html>

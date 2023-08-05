@@ -71,3 +71,24 @@ ul {
   #bought-list li .quantity {
     color: #666666;
   }*/
+
+
+  /*<!--<main>
+    <form>
+        <label class="item-input" for="item-input">Item</label>
+        <input type="text" id="item-input" placeholder="Enter Item">
+        <label class="item-input for="quantity-input">Quantity</label>
+        <input type="number" id="quantity-input"  placeholder="Enter Quantity">
+        <button onclick="myFunction()" type="submit" id="submit-btn">Add</button>
+    </form>
+
+    <div id="lists">
+        <p class="listLabel">Still need to grab <span class="quantity" id="shopping-num"></span></p>
+        <ul><li id="shopping-list"></li>
+        <p class="listLabel">In cart <span class="quantity" id="bought-num"></span></p>
+        <li id="bought-list"></li></ul>
+    </div>
+    <button type="reset" id="reset-btn">Clear</button>
+    <div class="push"></div>
+    </div>
+</main>-->*/
