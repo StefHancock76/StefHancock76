@@ -1,7 +1,7 @@
 let groceryList = document.querySelector('#grocery_list');
 const addToListButton = document.querySelector('#add_to_list');
 const groceryListInput = document.querySelector("#grocery_list_input");
-const groceryListInput = document.querySelector("#quantity_input");
+const groceryQtyInput = document.querySelector("#quantity_input");
 
 let listName = document.querySelector('#list_name');
 let listNameInput = document.querySelector('#list_name_input');
