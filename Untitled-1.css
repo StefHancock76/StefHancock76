@@ -92,3 +92,10 @@ ul {
     <div class="push"></div>
     </div>
 </main>-->*/
+
+/*if (groceryQtyInput.value !== '') {
+        let th = document.createElement('th');
+        th.textContent = groceryQtyInput.value;
+        groceryList.appendChild(th);
+        groceryQtyInput.value = '';
+    }*/

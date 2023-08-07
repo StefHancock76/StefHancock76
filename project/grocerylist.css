@@ -31,7 +31,7 @@ button {
 }
 
 button {
-    border: 0;
+    border: .5;
     padding: 1em;
     width: inherit;
     margin: 0.75em 0;
