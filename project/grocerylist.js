@@ -20,17 +20,24 @@ addToListButton.addEventListener('click', () => {
     addToList();
 })
 
-let addToList = document.getElementById("groceryListInput");
-input.addEventListener("keypress", function(event) {
-  if (event.key === "Enter") {
-    event.preventDefault();
-    document.getElementById("addToListButton").click();
-  }
+groceryListInput.addEventListener('keypress', function (e) {
+    let key = e.which || e.keyCode;
+    if (key === 13) { /* 13 is enter*/
+        addToList();
+    }
 });
 
-/*let editListName*/
+function fun(){  
+    document.getElementById("grocery_list").reset();  
+  }
 
-editListName.addEventListener('click', () => {
+
+/*listNameInput.addEventListener ('reset, function () {
+    document.getElementById("list_name_input")
+    reset();
+  }')
+
+editListName.addEventListener('reset', () => {
     if (listNameInput.style.visibility = 'hidden') {
         listNameInput.style.visibility = 'visible';
         console.log("show");
@@ -39,4 +46,4 @@ editListName.addEventListener('click', () => {
         console.log("hide");
 
     }
-})
+})*/

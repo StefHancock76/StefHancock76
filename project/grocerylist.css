@@ -17,7 +17,7 @@ label {
     display: flexbox;
 }
 
-
+a { color: wheat;}
 
 input {
     width: inherit;
