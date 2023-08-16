@@ -1,3 +1,4 @@
+
 let groceryList = document.querySelector('#grocery_list');
 const addToListButton = document.querySelector('#add_to_list');
 const groceryQtyInput = document.querySelector("#quantity_input");
@@ -22,17 +23,15 @@ addToListButton.addEventListener('click', () => {
 
 groceryListInput.addEventListener('keypress', function (e) {
     let key = e.which || e.keyCode;
-    if (key === 13) { /* 13 is enter*/
+    if (key === 13) { // 13 is enter
         addToList();
     }
 });
 
-function fun(){  
-    document.getElementById("grocery_list").reset();  
-  }
 
 
-/*listNameInput.addEventListener ('reset, function () {
+/*
+listNameInput.addEventListener ('reset, function () {
     document.getElementById("list_name_input")
     reset();
   }')
